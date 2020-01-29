@@ -66,7 +66,7 @@ command:
 Then, when prompted, please type your username and password for
 GitHub. When asked to give the filename, you can type:
 
-`_build/senior_thesis_proposal.pdf`.
+`_build/ProposalPresentation.pdf`.
 
 When asked if you want to deploy from a
 specific repository, you can respond with the answer of "no". Finally, when
@@ -99,15 +99,15 @@ all GitHub projects are asked to adopt.
 Please note that the instructor and the technical leaders will only read the PDF
 by downloading the "tagged" release of the proposal that has a version number greater than
 1.0.0. That is, if your commit is tagged with
-`SeniorThesisProposal-jjumadinova-1.0.0`, then the file
-`SeniorThesisProposal.pdf` should be available for download in the
+`ProposalPresentation-jjumadinova-1.0.0`, then the file
+`ProposalPresentation.pdf` should be available for download in the
 "Releases" tab in your GitHub repository for this project under the name
-`SeniorThesisProposal-jjumadinova-1.0.0`.
+`ProposalPresentation-jjumadinova-1.0.0`.
 
 Once you have finished making  small changes to the
 document, you should commit your file using a `git
 commit` command. Now, to create your first tag for this repository you could
-type `git tag SeniorThesisProposal-jjumadinova-0.1.0`. Of course, you should
+type `git tag ProposalPresentation-jjumadinova-0.1.0`. Of course, you should
 substitute your user name for `jjumadinova` when you create the tag. At this point,
 you are ready to push your changes with the appropriate tag by typing the
 command `git push -u origin master --tags`. After waiting for a period of time,
